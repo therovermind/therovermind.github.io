@@ -1,44 +1,61 @@
 <!Doctype HTML>
 <html>
-    <title> ANKUR SINGHAL</title>
+    
     <head>
-        <script src="./node_modules/particles.js/particles.js"></script>
-        <script src="./app.js"></script>
-        <link rel="Stylesheet" src="http://www.jsdelivr.com/#!particles.js"> </link>
+            <meta charset="utf-8">
+            <title> ANKUR SINGHAL</title>
+            <meta name="description" content="Ankur Singhal is a delhi based tech enthusiast,amateur developer and a budding entrepreneur.
+                                              Hunger for innovation will make you love me...haha.Let's learn more about me!">
+            <meta name="keywords" content="ankur singhal,Ankur Singhal,therovermind,the+rover+mind,rovermind,THEROVERMIND,ankur msp,ankursinghal.dev,DevAnkurSinghal,ankur singhal btech,ankur singhal fb,ankursinghal,ankur,ankur singhal linkedin,ankur+singhal+twitter,ankur github,therovermind github">
+            <meta name="robots" content="index">
+            <meta name="robots" content="follow">
+            <meta name="googlebot" content="index,follow">
+            <meta name="google-site-verification" content="">
+            
+            
+            <meta name="author" content="Ankur Singhal">
+        
+           
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <style> body
+                {
+                  margin: 0;
+                  padding: 0;
+                  height: 100%;
+                }
+                #particles-js{
+                    height: 100%;
+                   
+                    background: #1a222c;
+                }
+                h1{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-size: 70px;
+                    color:white;
+                }
+                h2{
+                    font-size: 30px;
+                }
+        </style>
     </head>
     <body>
-        <div id="particles-js">
+        <div id="particles-js" style="border-top:0">
 
-         <img src="./pic.img" alt="hello" > </img>
-         <div style="text-align:center">
-            Hello it's me ankur!
-         </div>
-         <div style="text-align:center">
-            I am a delhi based tech enthusiast,amateur developer and a budding entrepreneur.
-            Hunger for innovation will make you love me...haha.Let's learn more about me!
-         </div>
+            
+            <div style="text-align:center">
+               <img src="./pic.png" alt="hello" style="float:left;border-radius:50%; height:150px;width:150px" ><h1>Hello it's me ankur!</h1> </img>
+               
+                    
+            </div> 
+            <div style="text-align:center ;color:White">
+               I am a delhi based tech enthusiast,amateur developer and a budding entrepreneur.Hunger for innovation will make you love me...haha.Let's learn more about me!<br>
+               
+            </div>
         </div>
-        <script src="./stats.js"></script>
-        <script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-       </script>
+        
 
-
+        <script  type="text/javascript" src="particles.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
