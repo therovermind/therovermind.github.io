@@ -86,3 +86,10 @@ li a {
 li a:hover {
     background-color: #000000 white;
 }
+div{
+    border-collapse: collapse;
+    border-color: red;
+}
+.fa{
+    font-size: 40px;
+}
